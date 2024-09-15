@@ -1,26 +1,46 @@
 :root {
-    background-color: black;
+    body{
+        background-image:url('C:/Users/720586/OneDrive - Wichita Public Schools/Documents/GitHub/portfolio/Media/gradient-black-background-with-wavy-lines.zip');
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     font-family: "Outfit", sans-serif;
     img {
         max-width: 99%;
+    }
+    
+    .contact_me, .socials, .title, .portfolio {
+        color: white;
     }
     
     .title {
         font-optical-sizing: auto;
         font-weight: 100%;
         font-style: normal;
-        font-size: 100px;
+        font-size: 10vw;
         text-align: center;
-        color: white;
     }
     
     .portfolio {
         font-optical-sizing: auto;
         font-weight: 100%;
         font-style: normal;
-        font-size: 50px;
-        text-align: left;
-        color: white;
+        font-size: 5vw;
         list-style: none;
+    }
+    
+    .contact_me, .socials {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .contact {
+        font-optical-sizing: auto;
+        font-weight: 100%;
+        font-style: normal;
+        list-style: numbers;
+        font-size: 2vw;
+        text-align: center;
     }
 }
