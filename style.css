@@ -1,6 +1,6 @@
 :root {
     body{
-        background-image:url('C:/Users/720586/OneDrive - Wichita Public Schools/Documents/GitHub/portfolio/Media/gradient-black-background-with-wavy-lines.zip');
+        background-image: url('"C:/Users/720586/OneDrive - Wichita Public Schools/Documents/GitHub/portfolio/Media/black-wavy-background.jpg"');
         background-attachment:fixed;
         background-repeat: no-repeat;
         background-size: cover;
