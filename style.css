@@ -1,6 +1,9 @@
 :root {
     background-color: black;
     font-family: "Outfit", sans-serif;
+    img {
+        max-width: 99%;
+    }
     
     .title {
         font-optical-sizing: auto;
@@ -11,7 +14,7 @@
         color: white;
     }
     
-    .the_portfolio {
+    .portfolio {
         font-optical-sizing: auto;
         font-weight: 100%;
         font-style: normal;
@@ -19,10 +22,5 @@
         text-align: left;
         color: white;
         list-style: none;
-        
-        .portfolioimg {
-            max-width: 99%;
-            max-height: 99%;
-        }
     }
 }
