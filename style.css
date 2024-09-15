@@ -38,4 +38,16 @@
         font-size: 2vw;
         text-align: center;
     }
+
+    #complete {
+        color: green;
+    }
+
+    #doing {
+        color: yellow;
+    }
+
+    #will_do {
+        color: red;
+    }
 }
