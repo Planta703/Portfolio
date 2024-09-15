@@ -1,0 +1,28 @@
+:root {
+    background-color: black;
+    font-family: "Outfit", sans-serif;
+    
+    .title {
+        font-optical-sizing: auto;
+        font-weight: 100%;
+        font-style: normal;
+        font-size: 100px;
+        text-align: center;
+        color: white;
+    }
+    
+    .the_portfolio {
+        font-optical-sizing: auto;
+        font-weight: 100%;
+        font-style: normal;
+        font-size: 50px;
+        text-align: left;
+        color: white;
+        list-style: none;
+        
+        .portfolioimg {
+            max-width: 99%;
+            max-height: 99%;
+        }
+    }
+}
