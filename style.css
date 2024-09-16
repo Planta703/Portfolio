@@ -5,11 +5,11 @@
         max-width: 99%;
     }
     
-    .contact_me, .socials, .title, .portfolio {
+    #contact_me, #socials, #title, #portfolio {
         color: white;
     }
     
-    .title {
+    #title {
         font-optical-sizing: auto;
         font-weight: 100%;
         font-style: normal;
@@ -17,7 +17,7 @@
         text-align: center;
     }
     
-    .portfolio {
+    #portfolio {
         font-optical-sizing: auto;
         font-weight: 100%;
         font-style: normal;
@@ -25,12 +25,12 @@
         list-style: none;
     }
     
-    .contact_me, .socials {
+    #contact_me, #socials {
         display: inline-block;
         vertical-align: middle;
     }
 
-    .contact {
+    #contact {
         font-optical-sizing: auto;
         font-weight: 100%;
         font-style: normal;
@@ -39,15 +39,15 @@
         text-align: center;
     }
 
-    #complete {
+    .complete {
         color: green;
     }
 
-    #doing {
+    .doing {
         color: yellow;
     }
 
-    #will_do {
+    .will_do {
         color: red;
     }
 }
